@@ -1,0 +1,28 @@
+/* top level setup */
+* {
+    box-sizing: border-box;
+}
+
+.ReactDiv {
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainApp {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container {
+    display:flex;
+}
+
+/* individual React elements styling starting at top level boxes */
+
+nav {
+    width: 100%;
+    display : flex;
+    height: 8%;
+    background-color: black;
+}
