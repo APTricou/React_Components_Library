@@ -1,30 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-class NavBar extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-  render() {
-    return <nav></nav>;
-  }
-}
-
-class SideBar extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-    render;
-  }
-}
-
-class Content extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-}
+import {
+  Image,
+  Description,
+  SimpleCard,
+  SideBar,
+  NavBar,
+  Title,
+  Content
+} from "./Library";
 
 class Application extends React.Component {
   constructor() {
